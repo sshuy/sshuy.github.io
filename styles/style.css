@@ -1,0 +1,99 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #00539f;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.bt1{
+  border-radius: 8px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+/*
+
+So the first part of css is the selector. In this case at the top here.
+
+Our selector is 'p' or the paragraph element in HTML <p>
+
+Next we have the property which in this case is 'color' then the property value
+which is 'red'
+
+The property and property value together creates the declaration.
+
+color: red; = the declaration.
+
+You can select multiple elements within your selector at once.
+
+Here we have
+
+p{
+    color: red;
+}
+
+but we could do the same with multiple selectors.
+
+p, h1, li{
+    color: red;
+}
+
+There are also different types of selectors.
+
+Element selector which we have seen above.
+
+ID Selector. Selects <p id="my-id"> used like #my-id
+
+Class Selector. Selects <p class="my-class"> used like .my-class
+
+Attribute Selector selects the element on the page with the specific attribute
+
+example here
+
+in css my selector would be img[src] which would select <img src="myimage.png"> NOT <img>
+
+
+Finally we have Pseudo-class selector. a:hover. selects the <a> element but only when the mouse pointer
+is hovering over the link.
+
+THE BOX
+
+Padding is the most inside. The space just around the content (e.g around paragraph text)
+Border is bordering the padding... The solid line that sits just outside the padding.
+Margin is the space around the outside of the element. Everything outside of the border.
+
+*/
