@@ -1,10 +1,10 @@
-let myImage = document.querySelector("img");
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute("src");
+let cuckooLogo = document.querySelector("img");
+cuckooLogo.onclick = function() {
+  let mySrc = cuckooLogo.getAttribute("src");
   if (mySrc === "/images/cuckoo-logo.png") {
-    myImage.setAttribute("src", "/images/cuckoo-logo.jpg");
+    cuckooLogo.setAttribute("src", "/images/cuckoo-logo.jpg");
   } else {
-    myImage.setAttribute("src", "/images/cuckoo-logo.png");
+    cuckooLogo.setAttribute("src", "/images/cuckoo-logo.png");
   }
 };
 
